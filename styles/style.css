@@ -1,0 +1,90 @@
+@import url(./variables.css);
+
+* {
+    background-color: var(--isabelline);
+    font-family: 'Poppins';
+    font-size: 16px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* HTML ELEMENTS */
+
+html, body {
+    margin: 10px;
+}
+
+title {
+    display: none;
+}
+
+h1 {
+    color: var(--coral);
+    font-family: 'Young Serif';
+    font-size: 6rem;
+    text-align: center;
+}
+
+h2 {
+    color: var(--tiffany);
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+h3 {
+    color: var(--tiffany);
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+p {
+    line-height: 1.65;
+}
+
+footer {
+    position: relative;
+    top: 0;
+    margin: 0 auto;
+}
+
+/* CLASSES */
+
+.presentation {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    height: 63vh;
+    
+}
+
+.profession {
+    margin: 41px;
+    font-size: 1.2rem;
+    letter-spacing: .1rem;
+}
+
+.icon-container {
+    position: relative;
+    top: 44px;
+}
+
+.icon-container span {
+    margin: 0 15px;
+    font-size: 50px;
+    color: var(--yellow);
+    -webkit-text-stroke: 1px black;
+}
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 5rem;
+        line-height: 1.1;
+    }
+    .presentation {
+        height: 54vh;
+    }
+}
