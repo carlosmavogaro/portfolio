@@ -61,6 +61,10 @@ p {
     line-height: 1.65;
 }
 
+ul {
+    list-style-type: none;
+}
+
 footer {
     position: relative;
     top: 0;
@@ -109,6 +113,20 @@ footer {
     width: 100%;
 }
 
+.academic-list li {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.academic-img {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border: 3px solid gray;
+    border-radius: 15px;
+}
+
 .skill-list {
     display: inline-flex;
     flex-wrap: wrap;
@@ -141,5 +159,14 @@ footer {
     h1 {
         font-size: 5rem;
         line-height: 1.1;
+    }
+
+    .academic-img {
+        height: 60px;
+        width: 60px;
+    }
+
+    .academic-description {
+        width: 25ch;
     }
 }
