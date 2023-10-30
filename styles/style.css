@@ -11,7 +11,7 @@
 
 /* HTML ELEMENTS */
 
-html, body {
+body {
     margin: 10px;
     display: flex;
     flex-flow: column nowrap;
@@ -20,6 +20,20 @@ html, body {
 
 title {
     display: none;
+}
+
+header {
+    width: 100ch;
+    position: fixed;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+header a {
+    text-decoration: none;
 }
 
 section {
