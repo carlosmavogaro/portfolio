@@ -2,7 +2,7 @@
 
 * {
     background-color: var(--isabelline);
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     box-sizing: content-box;
     margin: 0;
@@ -23,13 +23,21 @@ title {
 }
 
 header {
-    width: 100ch;
+    width: 100vh;
     position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+header nav {
+    height: 80px;
 }
 
 header ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
 }
 
 header a {
@@ -41,9 +49,9 @@ section {
     max-width: 780px;
 }
 
-article {
+/* article {
     margin-bottom: 20px;
-}
+} */
 
 h1 {
     color: var(--coral);
@@ -55,15 +63,15 @@ h1 {
 h2 {
     color: var(--tiffany);
     font-weight: 700;
-    font-size: 3rem;
-    margin-bottom: 20px;
+    font-size: 2.5rem;
+    margin-bottom: 24px;
 }
 
 h3 {
     color: var(--tiffany);
     font-weight: 700;
     font-size: 1.5rem;
-    margin-bottom: 13px;
+    margin-bottom: 20px;
 
 }
 
@@ -105,19 +113,6 @@ footer {
     margin-bottom: 9px;
 }
 
-.more-about-me ul {
-    list-style-type: disc;
-    margin-left: 5%;
-}
-
-.more-about-me ul li {
-    margin-bottom: 10px;
-}
-
-.more-about-me ul li::marker{
-    color: var(--coral)
-}
-
 .profession {
     margin: 41px;
     font-size: 1.2rem;
@@ -143,7 +138,7 @@ footer {
     font-size: 55px;
 }
 
-.aboutme p {
+.about-me p {
     width: 100%;
 }
 
@@ -159,6 +154,23 @@ footer {
     background-color: white;
     border: 3px solid gray;
     border-radius: 15px;
+}
+
+.more-about-me ul {
+    list-style-type: disc;
+    margin-left: 5%;
+}
+
+.more-about-me ul li {
+    margin-bottom: 10px;
+}
+
+.more-about-me ul li::marker{
+    color: var(--coral)
+}
+
+.academic-list, .more-about-me {
+    margin: 80px 0;
 }
 
 .project-card {
