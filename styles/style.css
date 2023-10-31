@@ -142,18 +142,28 @@ footer {
     width: 100%;
 }
 
+.academic-list ul {
+    padding-left: 1.2em;
+}
+
 .academic-list li {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
+    margin: 10px;
 }
 
 .academic-img {
     height: 100px;
     width: 100px;
     background-color: white;
-    border: 3px solid gray;
-    border-radius: 15px;
+    border: 1px solid white;
+    border-radius: 30px;
+    margin-right: 15px;
+}
+
+.academic-description p:first-child {
+    font-weight: 700;
 }
 
 .more-about-me ul {
@@ -231,6 +241,7 @@ footer {
     .academic-img {
         height: 60px;
         width: 60px;
+        border-radius: 15px;
     }
 
     .academic-description {
