@@ -165,9 +165,15 @@ footer {
     font-weight: 700;
 }
 
+.more-about-me h3 {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .more-about-me ul {
     list-style-type: disc;
     margin-left: 5%;
+    display: none;
 }
 
 .more-about-me ul li {
