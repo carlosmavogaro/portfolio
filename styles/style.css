@@ -72,7 +72,6 @@ h3 {
     font-weight: 700;
     font-size: 1.5rem;
     margin-bottom: 20px;
-
 }
 
 p {
@@ -198,10 +197,15 @@ footer {
     width: 150px;
     border: 1px solid;
     border-radius: 5px;
+    margin-bottom: 20px;
 }
 
 .project-description {
     text-align: center;
+}
+
+.project-description h3 {
+    color: var(--coral)
 }
 
 .skill-list {
@@ -246,5 +250,9 @@ footer {
 
     .academic-description {
         width: 25ch;
+    }
+
+    header {
+        display: none;
     }
 }
